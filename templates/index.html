@@ -1,0 +1,9 @@
+<!-- Home html page containing possible navigations-->
+{% extends "layout.html" %} {% block content %}
+<div class="listOfActions">
+  <h1 style="color: green">Social Service Application</h1>
+  <h2>Choose an action</h2>
+  <h3><a href="{{ url_for('sign') }}">Create A Service</a></h3>
+  <h3><a href="{{ url_for('allServicesList') }}">View All Services</a></h3>
+</div>
+{% endblock %}
