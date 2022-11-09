@@ -2,8 +2,11 @@
 
 Running the code:
 python3 -m venv env
+
 source env/bin/activate
+
 pip install -r requirements.txt
+
 python app.py
 
 Insallations:
